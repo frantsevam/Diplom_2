@@ -4,7 +4,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.http.ContentType;
 
-public class Api {
+public class ApiAndUrl {
     public static final String USER_REGISTER = "api/auth/register";
     public static final String USER = "api/auth/user";
     public static final String USER_LOGIN = "/api/auth/login";

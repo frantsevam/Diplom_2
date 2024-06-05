@@ -2,11 +2,13 @@ package order;
 
 import java.util.List;
 
-public class Order {
+public class OrderData {
     private List<String> ingredients;
-    public Order(List<String> ingredients){
+
+    public OrderData(List<String> ingredients) {
         this.ingredients = ingredients;
     }
+
     public List<String> getIngredients() {
         return ingredients;
     }
