@@ -22,7 +22,6 @@ public class CreateOrderTest {
     private UserRegistration userRegistration;
     private OrderData orderData;
     private String accessToken;
-    ;
     List<String> ingredients = Arrays.asList("61c0c5a71d1f82001bdaaa6d",
             "61c0c5a71d1f82001bdaaa70",
             "61c0c5a71d1f82001bdaaa72");
